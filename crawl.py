@@ -40,5 +40,3 @@ print('Unranked', tier.get(0, 0))
 for i in range(1, 30, 5):
     print(header[(i-1)//5], sum([tier.get(j, 0) for j in range(i, i+5)]))
 print('Total', sum(tier.values()))
-
-
